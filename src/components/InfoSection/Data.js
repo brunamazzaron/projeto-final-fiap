@@ -23,10 +23,10 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Login to your account at any time',
+  topLine: 'Separação: o doloroso processo de dissolução da conjugalidade',
+  headline: 'Motivos para ter um acompanhamento',
   description:
-    'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
+    'Este estudo teve como objetivo investigar como homens e mulheres das camadas médias da população vivenciam o processo de dissolução do casamento e buscam reconstruir suas identidades individuais, após a separação conjugal. Foi realizada uma pesquisa de campo com 16 mulheres e 16 homens das camadas médias da população carioca, com idades variando de 25 a 35 anos (1ª faixa etária) e de 45 a 55 anos (2ª faixa etária), separados legalmente ou não do primeiro casamento e que ainda não estavam recasados. Os dados foram levantados através de entrevistas semi-estruturadas.',
   buttonLabel: 'Conheça um profissional',
   imgStart: true,
   img: require('../../images/psico.png'),

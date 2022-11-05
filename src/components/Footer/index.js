@@ -33,29 +33,26 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLinkTitle>Sobre nós</FooterLinkTitle>
+              <FooterLink to='/sign-up'>Como trabalhamos</FooterLink>
+              <FooterLink to='/'>Depoimentos</FooterLink>
+              <FooterLink to='/'>Profissionais</FooterLink>
+              <FooterLink to='/'>Parceiros</FooterLink>
+              <FooterLink to='/'>Termos de Serviço</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>Contact</FooterLink>
-              <FooterLink to='/'>Support</FooterLink>
-              <FooterLink to='/'>Destinations</FooterLink>
-              <FooterLink to='/'>Sponsorships</FooterLink>
+              <FooterLinkTitle>Contato</FooterLinkTitle>
+              <FooterLink to='/'>Suporte</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
               <FooterLink to='/'>Submit Video</FooterLink>
               <FooterLink to='/'>Ambassadors</FooterLink>
               <FooterLink to='/'>Agency</FooterLink>
               <FooterLink to='/'>Influencer</FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <FooterLink to='/'>Instagram</FooterLink>
@@ -70,7 +67,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               HomeTherapy
             </SocialLogo>
-            <WebsiteRights>dolla © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>HomeTherapy © 2022 Todos os direito reservados.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

@@ -15,7 +15,7 @@ export const homeObjOne = {
   alt: 'Mobile',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjTwo = {
@@ -27,13 +27,13 @@ export const homeObjTwo = {
   headline: 'Motivos para ter um acompanhamento',
   description:
     'Este estudo teve como objetivo investigar como homens e mulheres das camadas médias da população vivenciam o processo de dissolução do casamento e buscam reconstruir suas identidades individuais, após a separação conjugal. Foi realizada uma pesquisa de campo com 16 mulheres e 16 homens das camadas médias da população carioca, com idades variando de 25 a 35 anos (1ª faixa etária) e de 45 a 55 anos (2ª faixa etária), separados legalmente ou não do primeiro casamento e que ainda não estavam recasados. Os dados foram levantados através de entrevistas semi-estruturadas.',
-  buttonLabel: 'Conheça um profissional',
+  buttonLabel: 'Conheça um profissional mais próximo',
   imgStart: true,
   img: require('../../images/psico.png'),
-  alt: 'Piggybank',
+  alt: 'terapia',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjThree = {
@@ -45,11 +45,11 @@ export const homeObjThree = {
   headline: 'Creating an account is extremely easy',
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+  buttonLabel: 'Inscreva-se',
   imgStart: false,
   img: require('../../images/svg-3.svg'),
   alt: 'Papers',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };

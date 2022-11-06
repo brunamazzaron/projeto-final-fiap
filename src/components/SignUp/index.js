@@ -10,9 +10,14 @@ import {
   FormInput,
   FormButton,
   Text
-} from './SigninElements';
+} from './SignUpElements';
 
-const SignIn = () => {
+const SignUp = () => {
+  function enviarEmail(e){
+    e.preventDefault();
+    console.log('Testando')
+  }
+
   return (
     <>
       <Container>
@@ -20,12 +25,12 @@ const SignIn = () => {
           <Icon to='/'>HomeTherapy</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Faça o seu cadastro:</FormH1>
               <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Senha</FormLabel>
               <FormInput type='password' required />
-              <FormButton type='submit'>Continuar</FormButton>
+              <FormButton onClick={enviarEmail} type='submit'>Enviar</FormButton>
               <Text>Esqueci a senha</Text>
             </Form>
           </FormContent>
@@ -35,4 +40,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignUp;

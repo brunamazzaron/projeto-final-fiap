@@ -20,7 +20,7 @@ const SignIn = () => {
           <Icon to='/'>HomeTherapy</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Entrar</FormH1>
               <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Senha</FormLabel>

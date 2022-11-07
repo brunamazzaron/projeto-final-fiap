@@ -24,7 +24,7 @@ function HeroSection() {
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Terapia Online</HeroH1>
+        <HeroH1>HomeTherapy</HeroH1>
         <HeroBtnWrapper>
           <Button
             to='signup'

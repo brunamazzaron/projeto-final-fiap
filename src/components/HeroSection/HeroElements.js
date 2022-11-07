@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
     right: 0;
     bottom: 0;
     background-color: #fff;
-    /* background: -webkit-gradient(
+    background: -webkit-gradient(
         linear,
         left top,
         left bottom,
@@ -32,7 +32,7 @@ export const HeroContainer = styled.div`
         rgba(0, 0, 0, 0.2) 0%,
         rgba(0, 0, 0, 0.6) 100%
       ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%); */
+      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
 `;
@@ -58,7 +58,6 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
   display: flex;
-  border: 1px solid #000;
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -69,7 +68,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #000;
+  color: #fff;
   font-size: 48px;
   text-align: center;
 
@@ -84,7 +83,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #000;
+  color: #fff;
   font-size: 24px;
   text-align: center;
   max-width: 600px;

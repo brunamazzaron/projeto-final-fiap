@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button } from '../ButtonElements';
+import Video from '../../videos/video.mp4';
 import {
   HeroContainer,
   HeroBg,
   VideoBg,
   HeroContent,
   HeroH1,
-  HeroP,
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight
@@ -20,14 +20,11 @@ function HeroSection() {
   };
   return (
     <HeroContainer id='home'>
-      {/* <HeroBg>
+      <HeroBg>
         <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
-      </HeroBg> */}
+      </HeroBg>
       <HeroContent>
-        <HeroH1>New Collection</HeroH1>
-        <HeroP>
-          The long wait is over
-        </HeroP>
+        <HeroH1>Terapia Online</HeroH1>
         <HeroBtnWrapper>
           <Button
             to='signup'
@@ -41,7 +38,7 @@ function HeroSection() {
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Vamos começar? {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

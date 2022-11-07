@@ -1,5 +1,5 @@
 export const homeObjOne = {
-  id: '/',
+  id: 'about',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -19,7 +19,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: '/maps',
+  id: 'discover',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -37,12 +37,12 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: '/signup',
+  id: 'signup',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
   topLine: 'Join our Team',
-  headline: 'Creating an account is extremely easy',
+  headline: 'Crie a sua conta',
   description:
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Inscreva-se',

@@ -9,10 +9,10 @@ import {
   FormLabel,
   FormInput,
   FormButton,
-  TextLink
-} from './SigninElements';
+  Text,
+} from './ForgotAccountElements';
 
-const SignIn = () => {
+const ForgotAccount = () => {
   return (
     <>
       <Container>
@@ -20,19 +20,17 @@ const SignIn = () => {
           <Icon to='/'>HomeTherapy</Icon>
           <FormContent>
             <Form action='#'>
-              <FormH1>Login</FormH1>
+              <FormH1>Esqueceu a sua senha:</FormH1>
+              <Text>Nova senha</Text>
               <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
-              <FormLabel htmlFor='for'>Senha</FormLabel>
-              <FormInput type='password' required />
-              <FormButton type='submit'>Entrar</FormButton>
-              <TextLink to='/forgot'>Esqueceu a senha?</TextLink>
+              <FormButton type='submit'>Enviar</FormButton>
             </Form>
           </FormContent>
-        </FormWrap>
+        </FormWrap> 
       </Container>
     </>
   );
 };
 
-export default SignIn;
+export default ForgotAccount;

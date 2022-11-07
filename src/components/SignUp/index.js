@@ -9,7 +9,7 @@ import {
   FormLabel,
   FormInput,
   FormButton,
-  Text
+  TextLink
 } from './SignUpElements';
 
 const SignUp = () => {
@@ -26,12 +26,14 @@ const SignUp = () => {
           <FormContent>
             <Form action='#'>
               <FormH1>Faça o seu cadastro:</FormH1>
+              <FormLabel>Nome</FormLabel>
+              <FormInput type='name' required />
               <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Senha</FormLabel>
               <FormInput type='password' required />
               <FormButton onClick={enviarEmail} type='submit'>Enviar</FormButton>
-              <Text>Esqueci a senha</Text>
+              <TextLink to='/signin'>Já possui uma conta? Login</TextLink>
             </Form>
           </FormContent>
         </FormWrap>

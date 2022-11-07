@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import Icon1 from '../../images/busca.png';
+import Icon2 from '../../images/conexao.png';
+import Icon3 from '../../images/beneficios.png';
 import {
   ServicesContainer,
   ServicesH1,
@@ -21,21 +21,21 @@ const Services = () => {
           <ServicesIcon src={Icon1} />
           <ServicesH2>Simplifique sua busca</ServicesH2>
           <ServicesP>
-            Com um clique você pode encontrar o seu psicologo mais próximo.
+            Encontre o psicologo mais próximo da sua casa.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Conexão</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+            Aumente sua cartela de rede de apoio. 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesH2>Beneficios</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+            Assine e conheça toda a ferramenta. 
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

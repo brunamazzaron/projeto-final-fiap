@@ -6,6 +6,7 @@ import Home from './pages';
 import SigninPage from './pages/signin';
 import SignupPage from './pages/signup';
 import ForgotAccount from './components/ForgotAccount';
+import DiscoverSection from './components/DiscoverSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signin' component={SigninPage} exact />
         <Route path='/signup' component={SignupPage} exact />
         <Route path='/forgot' component={ForgotAccount} exact />
+        <Route path="/discover" component={DiscoverSection} exact />
       </Switch>
     </Router>
   );

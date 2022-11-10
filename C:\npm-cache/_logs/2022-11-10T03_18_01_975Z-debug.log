@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', 'react-leaflet' ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session fa0a4b859ffcc88c
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/react-leaflet 1358ms (from cache)
+8 http fetch GET 200 https://registry.npmjs.org/react-leaflet/-/react-leaflet-4.1.0.tgz 19ms (from cache)
+9 silly pacote range manifest for react-leaflet@^4.1.0 fetched in 1396ms
+10 timing stage:loadCurrentTree Completed in 3546ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 18ms
+14 silly install loadShrinkwrap
+15 timing stage:rollbackFailedOptional Completed in 0ms
+16 timing stage:runTopLevelLifecycles Completed in 3625ms
+17 silly saveTree react-website-smooth-scroll-v1@0.1.0
+17 silly saveTree └── @babel/helper-environment-visitor@7.18.9
+18 verbose stack Error: Object for dependency "@babel/generator" is empty.
+18 verbose stack Something went wrong. Regenerate the package-lock.json with "npm install".
+18 verbose stack If using a shrinkwrap, regenerate with "npm shrinkwrap".
+18 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/inflate-shrinkwrap.js:60:29
+18 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+18 verbose stack     at Object.gotValue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/reduce.js:155:18)
+18 verbose stack     at Object.gotAccum (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/reduce.js:144:25)
+18 verbose stack     at Object.tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+18 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+18 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+18 verbose stack     at Promise._settlePromiseCtx (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:611:10)
+18 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:142:12)
+18 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+18 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+18 verbose stack     at Immediate.Async.drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+18 verbose stack     at processImmediate (internal/timers.js:462:21)
+19 verbose cwd /Users/brunamazzaron/Downloads/projeto-final-fiap
+20 verbose Darwin 21.5.0
+21 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "react-leaflet"
+22 verbose node v14.17.0
+23 verbose npm  v6.14.13
+24 error Object for dependency "@babel/generator" is empty.
+24 error Something went wrong. Regenerate the package-lock.json with "npm install".
+24 error If using a shrinkwrap, regenerate with "npm shrinkwrap".
+25 verbose exit [ 1, true ]

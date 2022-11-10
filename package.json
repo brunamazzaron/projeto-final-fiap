@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-classes": "7.12.13",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@jridgewell/trace-mapping": "^0.3.17",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.10.13",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "leaflet": "^1.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
+    "react-leaflet": "^4.1.0",
     "react-native-vector-icons": "^9.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
@@ -35,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/helper-environment-visitor": "^7.18.9",
+    "@types/leaflet": "^1.9.0"
   }
 }

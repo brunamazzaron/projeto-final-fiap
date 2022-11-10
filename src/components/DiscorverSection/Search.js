@@ -15,7 +15,7 @@ const params = {
 };
 
 export default function Search(props) {
-  const { selectPosition, setSelectPosition } = props;
+  const { setSelectPosition } = props;
   const [searchText, setSearchText] = useState("");
   const [listPlace, setListPlace] = useState([]);
 
@@ -38,7 +38,6 @@ export default function Search(props) {
             variant="contained"
             color="primary"
             onClick={() => {
-              // Search
               const params = {
                 q: searchText,
                 format: "json",
@@ -76,7 +75,7 @@ export default function Search(props) {
                 >
                   <ListItemIcon>
                     <img
-                      src="./placeholder.png"
+                      src="../../images/pin.png"
                       alt="Placeholder"
                       style={{ width: 38, height: 38 }}
                     />

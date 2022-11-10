@@ -1,27 +1,46 @@
 import React, { useState } from "react";
 import Search from "./Search";
-import Maps from "./Maps";
-
+import Maps from "../Maps/Maps";
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
+import Footer from '../Footer';
+import { DiscoContainer, InfoWrapper, InfoRow, Column1 ,Heading,TextWrapper, Column2, ImgWrap} from './DiscoverElements';
 
 function DiscoverSection(){
   const [selectPosition, setSelectPosition] = useState(null);
+  
+  const [isOpen, setIsOpen] = useState(false);
 
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
-        <div style={{ width: "50vw", height: "100%" }}>
-          <Maps selectPosition={selectPosition} />
-        </div>
-        <div style={{ width: "50vw" }}>
-          <Search selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
-        </div>
-      </div>
+    <>
+    <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} style={{ zindex: "200" }}/>
+      <DiscoContainer>
+        <InfoWrapper>
+        <InfoRow>
+        <Column1>
+        <TextWrapper>
+          <Heading>Resultados</Heading>
+          <div style={{ width: "30vw" }}>
+            <Search selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
+           </div>
+        </TextWrapper>
+        </Column1>
+        <Column2>
+          <ImgWrap>
+          <div style={{ width: "50vw", height: "30vw" , zindex:"-999"}}>
+            <Maps selectPosition={selectPosition} />
+          </div>
+        </ImgWrap>
+        </Column2>
+      </InfoRow>
+      </InfoWrapper>
+      </DiscoContainer>
+      <Footer />
+    </>
     );
 }
 

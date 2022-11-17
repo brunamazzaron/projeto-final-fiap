@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Search from "./Search";
+import Search from "../Search/Search";
 import Maps from "../Maps/Maps";
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
@@ -17,7 +17,7 @@ function DiscoverSection(){
   return (
     <>
     <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} style={{ zindex: "200" }}/>
+      <Navbar toggle={toggle}/>
       <DiscoContainer>
         <InfoWrapper>
         <InfoRow>
@@ -31,7 +31,7 @@ function DiscoverSection(){
         </Column1>
         <Column2>
           <ImgWrap>
-          <div style={{ width: "50vw", height: "30vw" , zindex:"-999"}}>
+          <div style={{ width: "50vw", height: "30vw"}}>
             <Maps selectPosition={selectPosition} />
           </div>
         </ImgWrap>

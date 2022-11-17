@@ -63,7 +63,7 @@ export default function Search(props) {
         </div>
       </div>
       <div>
-        <List component="nav" aria-label="main mailbox folders">
+        <List style={{ alignItems: "center", padding: "0px 20px", color: '#000' }}>
           {listPlace.map((item) => {
             return (
               <div key={item?.place_id}>
@@ -75,8 +75,8 @@ export default function Search(props) {
                 >
                   <ListItemIcon>
                     <img
-                      src="../../images/pin.png"
-                      alt="Placeholder"
+                      src={Pin}
+                      alt="pin"
                       style={{ width: 38, height: 38 }}
                     />
                   </ListItemIcon>

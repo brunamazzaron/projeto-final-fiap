@@ -6,6 +6,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
 import { Button } from '../ButtonElements';
+import  Pin  from '../../images/pin.png';
 
 const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org/search?";
 const params = {
@@ -76,7 +77,7 @@ export default function Search(props) {
                   <ListItemIcon>
                     <img
                       src={Pin}
-                      alt="pin"
+                      alt=""
                       style={{ width: 38, height: 38 }}
                     />
                   </ListItemIcon>
